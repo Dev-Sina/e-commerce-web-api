@@ -1,0 +1,73 @@
+version: '3.4'
+
+services:
+  eCommerceWebApi.Api:
+    image: ecommerce_web_api_image
+    container_name: ecommerce_web_api
+    build:
+      context: .
+      dockerfile: eCommerceWebAPI.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:7001
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
+      - BASE_ADDRESS=https://127.0.0.1:80
+    networks:
+      - default
+    depends_on:
+      - db_ecommerce_web_api
+    volumes:
+      - ./entrypoint.sh:/app/entrypoint.sh:ro
+      - contents:/app/Static
+    restart: unless-stopped
+    ports:
+      - "7001:7001"
+      - "7002:7002"
+
+  db_ecommerce_web_api:
+    image: sql
+    restart: always
+    volumes:
+      - ~/apps/sina-db:/var/lib/sqlserver/data
+    environment:
+      SQLSERVER_PASSWORD: 123
+      SQLSERVER_USER: sa
+      SQLSERVER_DB: sinadb
+    ports:
+      - "1433:1433"  
+    networks:
+      - default
+
+  redis:
+    image: redis
+    restart: always
+    volumes:
+      - ~/apps/sina-db:/var/lib/redis/data
+    environment:
+      RedisConnection: redis:6379
+    ports:
+      - "6379:6379"  
+    networks:
+      - default
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    restart: always
+    volumes:
+      - ~/apps/sina-db:/var/lib/redis/data
+    environment:
+      RabbitMQHostName: "rabbitmq"
+      RabbitMQUserName: "guest"
+      RabbitMQPassword: "guest"
+    ports:
+      - "15672:15672"  
+      - "5672:5672"  
+    networks:
+      - default
+
+volumes:
+  sina-db:
+    external: true
+  contents:
