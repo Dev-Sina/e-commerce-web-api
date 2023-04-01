@@ -1,0 +1,6 @@
+{
+  "eCommerceWebAPI.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Api",
+  "eCommerceWebAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Application",
+  "eCommerceWebAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Domain",
+  "eCommerceWebAPI.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Infrastructure"
+}

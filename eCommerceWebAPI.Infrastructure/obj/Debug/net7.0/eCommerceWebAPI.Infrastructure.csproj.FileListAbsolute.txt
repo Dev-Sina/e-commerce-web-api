@@ -1,0 +1,17 @@
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\bin\Debug\net7.0\eCommerceWebAPI.Infrastructure.deps.json
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\bin\Debug\net7.0\eCommerceWebAPI.Infrastructure.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\bin\Debug\net7.0\eCommerceWebAPI.Infrastructure.pdb
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\bin\Debug\net7.0\eCommerceWebAPI.Application.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\bin\Debug\net7.0\eCommerceWebAPI.Domain.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\bin\Debug\net7.0\eCommerceWebAPI.Application.pdb
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\bin\Debug\net7.0\eCommerceWebAPI.Domain.pdb
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\obj\Debug\net7.0\eCommerceWebAPI.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\obj\Debug\net7.0\eCommerceWebAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\obj\Debug\net7.0\eCommerceWebAPI.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\obj\Debug\net7.0\eCommerceWebAPI.Infrastructure.AssemblyInfo.cs
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\obj\Debug\net7.0\eCommerceWebAPI.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\obj\Debug\net7.0\eCommerceWebAPI.Infrastructure.csproj.CopyComplete
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\obj\Debug\net7.0\eCommerceWebAPI.Infrastructure.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\obj\Debug\net7.0\refint\eCommerceWebAPI.Infrastructure.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\obj\Debug\net7.0\eCommerceWebAPI.Infrastructure.pdb
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Infrastructure\obj\Debug\net7.0\ref\eCommerceWebAPI.Infrastructure.dll

@@ -1,0 +1,12 @@
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\bin\Debug\net7.0\eCommerceWebAPI.Domain.deps.json
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\bin\Debug\net7.0\eCommerceWebAPI.Domain.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\bin\Debug\net7.0\eCommerceWebAPI.Domain.pdb
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\obj\Debug\net7.0\eCommerceWebAPI.Domain.csproj.AssemblyReference.cache
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\obj\Debug\net7.0\eCommerceWebAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\obj\Debug\net7.0\eCommerceWebAPI.Domain.AssemblyInfoInputs.cache
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\obj\Debug\net7.0\eCommerceWebAPI.Domain.AssemblyInfo.cs
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\obj\Debug\net7.0\eCommerceWebAPI.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\obj\Debug\net7.0\eCommerceWebAPI.Domain.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\obj\Debug\net7.0\refint\eCommerceWebAPI.Domain.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\obj\Debug\net7.0\eCommerceWebAPI.Domain.pdb
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Domain\obj\Debug\net7.0\ref\eCommerceWebAPI.Domain.dll

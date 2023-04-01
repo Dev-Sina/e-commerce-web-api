@@ -1,0 +1,297 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Infrastructure\\eCommerceWebAPI.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Application\\eCommerceWebAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Application\\eCommerceWebAPI.Application.csproj",
+        "projectName": "eCommerceWebAPI.Application",
+        "projectPath": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Application\\eCommerceWebAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\Sina\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Domain\\eCommerceWebAPI.Domain.csproj": {
+                "projectPath": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Domain\\eCommerceWebAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Domain\\eCommerceWebAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Domain\\eCommerceWebAPI.Domain.csproj",
+        "projectName": "eCommerceWebAPI.Domain",
+        "projectPath": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Domain\\eCommerceWebAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\Sina\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Infrastructure\\eCommerceWebAPI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Infrastructure\\eCommerceWebAPI.Infrastructure.csproj",
+        "projectName": "eCommerceWebAPI.Infrastructure",
+        "projectPath": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Infrastructure\\eCommerceWebAPI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Sina\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Application\\eCommerceWebAPI.Application.csproj": {
+                "projectPath": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Application\\eCommerceWebAPI.Application.csproj"
+              },
+              "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Domain\\eCommerceWebAPI.Domain.csproj": {
+                "projectPath": "D:\\Projects\\eCommerceWebAPI-1.0\\e-commerce-web-api\\eCommerceWebAPI.Domain\\eCommerceWebAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extras.CommonServiceLocator": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "CommonServiceLocator": {
+              "target": "Package",
+              "version": "[2.0.7, )"
+            },
+            "DNTCommon.Web.Core": {
+              "target": "Package",
+              "version": "[3.5.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.96, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

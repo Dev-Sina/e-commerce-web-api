@@ -1,0 +1,15 @@
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\bin\Debug\net7.0\eCommerceWebAPI.Application.deps.json
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\bin\Debug\net7.0\eCommerceWebAPI.Application.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\bin\Debug\net7.0\eCommerceWebAPI.Application.pdb
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\bin\Debug\net7.0\eCommerceWebAPI.Domain.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\bin\Debug\net7.0\eCommerceWebAPI.Domain.pdb
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\obj\Debug\net7.0\eCommerceWebAPI.Application.csproj.AssemblyReference.cache
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\obj\Debug\net7.0\eCommerceWebAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\obj\Debug\net7.0\eCommerceWebAPI.Application.AssemblyInfoInputs.cache
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\obj\Debug\net7.0\eCommerceWebAPI.Application.AssemblyInfo.cs
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\obj\Debug\net7.0\eCommerceWebAPI.Application.csproj.CoreCompileInputs.cache
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\obj\Debug\net7.0\eCommerceWebAPI.Application.csproj.CopyComplete
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\obj\Debug\net7.0\eCommerceWebAPI.Application.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\obj\Debug\net7.0\refint\eCommerceWebAPI.Application.dll
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\obj\Debug\net7.0\eCommerceWebAPI.Application.pdb
+D:\Projects\eCommerceWebAPI-1.0\e-commerce-web-api\eCommerceWebAPI.Application\obj\Debug\net7.0\ref\eCommerceWebAPI.Application.dll
