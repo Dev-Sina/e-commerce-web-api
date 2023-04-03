@@ -23,6 +23,7 @@ using eCommerceWebAPI.Domain.SeedWork;
 using eCommerceWebAPI.Application.Validation;
 using eCommerceWebAPI.Api.SeedWork;
 using eCommerceWebAPI.Application.Services.MessageBrokers.RabbitMQ;
+using System.Reflection;
 
 namespace eCommerceWebAPI.Api
 {
@@ -212,10 +213,21 @@ namespace eCommerceWebAPI.Api
                 });
                 options.OperationFilter<AddRequiredHeaderParameter>();
 
-                //var baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-                //var commentsFileName = Assembly.GetExecutingAssembly().GetName().Name + ".xml";
-                //var commentsFile = Path.Combine(baseDirectory, commentsFileName);
-                //options.IncludeXmlComments(commentsFile);
+                // Exclude the CspReport controller from Swagger UI
+                options.DocInclusionPredicate((docName, apiDesc) =>
+                {
+                    if (apiDesc.ActionDescriptor.RouteValues.ContainsKey("controller"))
+                    {
+                        var controllerName = apiDesc.ActionDescriptor.RouteValues["controller"];
+                        return !string.Equals(controllerName, "CspReport", StringComparison.OrdinalIgnoreCase);
+                    }
+                    return true;
+                });
+
+                // Set the comments path for the Swagger JSON and UI
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                options.IncludeXmlComments(xmlPath);
             });
         }
 
